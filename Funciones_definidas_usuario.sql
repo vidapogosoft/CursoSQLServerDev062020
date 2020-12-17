@@ -23,7 +23,7 @@ begin
 	return(@EdadActual)
 
 end
-
+go
 
 ----Utilizar la funcion escalar
 
@@ -60,6 +60,7 @@ begin
 
 	return
 end
+GO
 
 ---Funcionamiento
 
@@ -85,7 +86,7 @@ return
 	where YEAR(FechaEmision) = @Anio
 	and saldo >=  @Saldo
 )
-
+go
 
 ---Funcionamiento
 
